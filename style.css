@@ -551,3 +551,135 @@ footer {
     text-align: center;
   }
 }
+
+/* Teaching feedback */
+
+.teaching-feedback {
+  margin-top: 45px;
+}
+
+
+.feedback-toggle {
+
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+
+  padding: 15px 20px;
+
+  border: 1px solid var(--border);
+  border-radius: 10px;
+
+  background: white;
+
+  color: var(--primary-dark);
+
+  font-size: 1rem;
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition: 0.25s ease;
+
+}
+
+
+.feedback-toggle:hover {
+
+  background: var(--primary);
+  color:white;
+
+}
+
+
+
+#feedback-arrow {
+
+  transition: transform 0.3s ease;
+
+}
+
+
+
+.feedback-content {
+
+  display:none;
+
+  margin-top:25px;
+
+  gap:20px;
+
+}
+
+
+
+.feedback-content.show {
+
+  display:grid;
+
+}
+
+
+
+.feedback-card {
+
+  position:relative;
+
+  padding:28px 32px;
+
+  border-left:4px solid var(--accent);
+
+  background:white;
+
+  border-radius:10px;
+
+  box-shadow:var(--card-shadow);
+
+}
+
+
+
+.feedback-card i {
+
+  color:var(--accent);
+
+  font-size:1.3rem;
+
+  margin-bottom:10px;
+
+}
+
+
+
+.feedback-card p {
+
+  font-family:
+  "Source Serif 4",
+  serif;
+
+  font-size:1.05rem;
+
+  line-height:1.7;
+
+  color:#374151;
+
+}
+
+
+
+.feedback-card span {
+
+  display:block;
+
+  margin-top:15px;
+
+  color:var(--muted);
+
+  font-size:0.85rem;
+
+  font-style:italic;
+
+}
