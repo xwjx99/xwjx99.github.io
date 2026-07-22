@@ -652,7 +652,7 @@ footer {
 
 } */
 
-.feedback-card .quote-left {
+/* .feedback-card .quote-left {
 
     color:var(--accent);
 
@@ -675,8 +675,31 @@ footer {
 
     vertical-align:middle;
 
+} */
+
+.feedback-card .quote-left,
+.feedback-card .quote-right {
+
+    color: var(--accent);
+
+    font-size: 1.3rem;
+
+    vertical-align: middle;
+
 }
 
+.feedback-card .quote-left {
+
+    margin-right: 8px;
+
+}
+
+
+.feedback-card .quote-right {
+
+    margin-left: 8px;
+
+}
 
 
 .feedback-card p {
