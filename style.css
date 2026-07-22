@@ -642,13 +642,38 @@ footer {
 
 
 
-.feedback-card i {
+/* .feedback-card i {
 
   color:var(--accent);
 
   font-size:1.3rem;
 
   margin-bottom:10px;
+
+} */
+
+.feedback-card .quote-left {
+
+    display:block;
+
+    color:var(--accent);
+
+    font-size:2rem;
+
+    margin-bottom:15px;
+
+}
+
+
+.feedback-card .quote-right {
+
+    color:var(--accent);
+
+    font-size:1.4rem;
+
+    margin-left:8px;
+
+    vertical-align:middle;
 
 }
 
