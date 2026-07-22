@@ -654,13 +654,13 @@ footer {
 
 .feedback-card .quote-left {
 
-    display:block;
-
     color:var(--accent);
 
-    font-size:2rem;
+    font-size:1.3rem;
 
-    margin-bottom:15px;
+    margin-right:8px;
+
+    vertical-align:top;
 
 }
 
